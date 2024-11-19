@@ -17,7 +17,7 @@ app.use('/products', productRoutes);
 app.use('/orders', orderRoutes);
 app.use('/sale', saleRoutes);
 
-const port = process.env.PORT || 3002;  // Usa el puerto asignado por el entorno o 3002 por defecto
-app.listen(port, () => {
-    console.log(`Corriendo en el puerto ${port}`);
-});
+app.listen(3002,()=>{
+    console.log("Corriendo en el puerto 3002");
+    
+})
